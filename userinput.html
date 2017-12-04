@@ -1,0 +1,42 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>FIFADB</title>
+</head>
+
+<body>
+
+<b>Display A Players Price</b><br>
+<form method="post" action="display_price.php">
+Which Player?:</br> <input type="text" name="player"><br>
+<input type="submit" name="displayprice" value="Display"/>
+</form><br><br>
+
+<b>Update All Player Prices And Ratings</b><br>
+<form method="post" action="insert_player_data.php">
+<input type="submit" name="update" value="Update"/>
+</form><br>
+
+<b>Display Players Most Likely to Rise in Price</b><br>
+<form method="post" action="rising_players.php">
+<input type="submit" name="rising" value="Display"/>
+</form><br>
+
+<b>Show players That Will Play Eachother</b><br>
+<form method="post" action="interplay.php">
+<input type="submit" name="interplay" value="Display Names"/>
+</form><br>
+
+<b>Update An Upcoming Game</b><br>
+<form method="post" action="update_game.php">
+Which Player?:</br> <input type="text" name="player"><br><br>
+Opponent:</br> <input type="text" name="opponent"><br><br>
+Date(YYYY-MM-DD):</br> <input type="text" name="date"><br><br>
+Difficulty(1-5):</br> <input type="text" name="difficulty"><br><br>
+<input type="submit" name="updategame" value="Update"/>
+</form><br>
+
+
+</body>
+</html>
